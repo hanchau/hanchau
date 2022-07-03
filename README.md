@@ -12,6 +12,7 @@
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=hanchau.hanchau&left_text=VisitorsSoFar)
 
+<br />
 
 ```python
 #!/usr/bin/python
