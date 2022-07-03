@@ -1,4 +1,5 @@
 # Hello there 👋
+<!--START_SECTION:waka
 
 <a href="/">
   <img align="left" alt="Anuj's LinkedIn" width="22px" src="https://www.linkedin.com/in/anuj-chauhan-b23329121/" />
@@ -9,10 +10,10 @@
 <a href="/">
   <img align="left" alt="Anuj's Blog" width="22px" src="https://medium.com/@abitanxious" />
 </a>
+-->
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=hanchau.hanchau&left_text=VisitorsSoFar)
 
-<!--START_SECTION:waka-->
 
 ### About me
 ```python
@@ -81,7 +82,4 @@ if __name__ == "main":
 
 ## To sum it up
 
-
-
-
-<img align="" alt="GIF" src="https://github.com/hanchau/hanchau/blob/main/debug.gif" />
+<img align="center" alt="GIF" src="https://github.com/hanchau/hanchau/blob/main/debug.gif" />
