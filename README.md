@@ -64,4 +64,4 @@ if __name__ == "main":
     me.get_back()
 ```
 
-  <img align="right" alt="GIF" src="https://github.com/hanchau/hanchau/?raw=true" width="500" height="320" />
+  <img align="right" alt="GIF" src="https://github.com/hanchau/hanchau/debug.gif?raw=true" width="500" height="320" />
