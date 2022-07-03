@@ -1,5 +1,18 @@
 # Hello there 👋
 
+<a href="/">
+  <img align="left" alt="Anuj's LinkedIn" width="22px" src="https://www.linkedin.com/in/anuj-chauhan-b23329121/" />
+</a>
+<a href="/">
+  <img align="left" alt="Anuj's Tech Blog" width="22px" src="https://hanchau.github.io/posts/" />
+</a>
+<a href="/">
+  <img align="left" alt="Anuj's Blog" width="22px" src="https://medium.com/@abitanxious" />
+</a>
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=hanchau.hanchau&left_text=VisitorsSoFar)
+
+
 ```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -66,4 +79,7 @@ if __name__ == "main":
 
 ## To sum it up
 
-<img align="right" alt="GIF" src="https://github.com/hanchau/hanchau/blob/main/debug.gif" />
+
+
+
+<img align="" alt="GIF" src="https://github.com/hanchau/hanchau/blob/main/debug.gif" />
