@@ -65,4 +65,5 @@ if __name__ == "main":
 ```
 
 ## To sum it up
-![](https://github.com/hanchau/hanchau/blob/main/debug.gif)
+
+<img align="right" alt="GIF" src="https://github.com/hanchau/hanchau/blob/main/debug.gif" />
