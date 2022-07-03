@@ -64,5 +64,5 @@ if __name__ == "main":
     me.get_back()
 ```
 
-# To sum it up
-![](https://github.com/hanchau/hanchau/debug.gif)
+## To sum it up
+![](https://github.com/hanchau/hanchau/blob/main/debug.gif)
