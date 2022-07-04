@@ -34,18 +34,16 @@ class DataScientist(Data):
 
 class DataScienceEngineer(DataEngineer, DataScientist):
 
-    def __init__(self, name = "", role = ""):
-        self.name = name
-        self.role = role
+    def __init__(self):
+        self.name = "Anuj Chauhan"
+        self.role = "Data Science Engineer"
         self.languages = ["Python3", "Java"]
         self.hobbies = ["music", "road_trips", "maths"]
 
-    @classmethod
-    def reborn(cls, name, role):
-        return cls(name, role)
 
     def say_hi(self):
         print("Thanks for dropping by, hope you find something useful.")
+
 
     async def do_work(self):
         for i in range(0, len(tasks)):
@@ -54,6 +52,7 @@ class DataScienceEngineer(DataEngineer, DataScientist):
                 print("bc code fat gaya! told you to test regorously!!")
         return 0
 
+
     async def study(self):
         for i in range(0, len(study_tasks)):
             if i % 10 == 0:
@@ -61,10 +60,12 @@ class DataScienceEngineer(DataEngineer, DataScientist):
                 print("Fir sae sogaya.. kal karunga baaki.. zzz..")
         return 0
 
+
     async def here_and_there(self):
         f1 = loop.create_task(self.do_work())
         f2 = loop.create_task(self.study())
         await asyncio.wait([f1, f2])
+
 
     def get_back(self):
         struggle = asyncio.get_event_loop()
@@ -74,8 +75,6 @@ class DataScienceEngineer(DataEngineer, DataScientist):
 
 if __name__ == "main":
     me = DataScienceEngineer()
-    # oops, no name, time to reborn
-    me = DataScienceEngineer.reborn("Anuj Chauhan", "Data Science Engineer")
     me.say_hi()
     me.get_back()
 ```
