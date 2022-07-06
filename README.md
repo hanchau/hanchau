@@ -49,7 +49,7 @@ class DataScienceEngineer(DataEngineer, DataScientist):
         for i in range(0, len(tasks)):
             if i % 20 == 0:
                 print("Hey, Can't you see I'm working")
-                print("bc code fat gaya! told you to test regorously!!")
+                print("bc code fat gaya! told you to test rigorously!!")
         return 0
 
 
