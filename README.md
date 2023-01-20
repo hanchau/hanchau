@@ -22,7 +22,6 @@
 
 from BigData import Data
 from job import tasks
-from UPSC.CSE import study_tasks
 import asyncio
 
 
@@ -45,7 +44,7 @@ class DataScienceEngineer(DataEngineer, DataScientist):
         print("Thanks for dropping by, hope you find something useful.")
 
 
-    async def do_work(self):
+    async def do_job_work(self):
         for i in range(0, len(tasks)):
             if i % 20 == 0:
                 print("Hey, Can't you see I'm working")
@@ -53,17 +52,17 @@ class DataScienceEngineer(DataEngineer, DataScientist):
         return 0
 
 
-    async def study(self):
+    async def do_personal_work(self):
         for i in range(0, len(study_tasks)):
             if i % 10 == 0:
-                print("History, geography, current affairs.. zzz..")
-                print("Fir sae sogaya.. kal karunga baaki.. zzz..")
+                print("Guitar, Keyboard, Roadtrips, Hikings, Long walks .. zzz..")
+                print("What a life.. zzz..")
         return 0
 
 
     async def here_and_there(self):
-        f1 = loop.create_task(self.do_work())
-        f2 = loop.create_task(self.study())
+        f1 = loop.create_task(self.do_job_work())
+        f2 = loop.create_task(self.do_personal_work())
         await asyncio.wait([f1, f2])
 
 
